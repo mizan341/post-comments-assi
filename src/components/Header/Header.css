@@ -1,0 +1,32 @@
+.mainMenu{
+    background-color: rgb(209, 208, 208);
+    padding: 20px 0px;
+
+    
+    
+}
+.mainMenu ul{
+    display:flex;
+    margin: 0px;
+    width: 90%;
+    margin: auto;
+}
+.mainMenu li{
+    list-style: none;
+    letter-spacing: 2px;
+    padding: 0px 25px;
+    
+}
+.mainMenu a{
+    text-decoration:none;
+    color: tomato;
+    padding: 6px 12px;
+    font-weight: bold;
+    text-transform:uppercase;
+    transition:.5s;
+    
+}
+.mainMenu a:hover{
+    border-bottom: 3px solid #5f27cd;
+    
+}
