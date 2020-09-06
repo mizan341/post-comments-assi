@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import Comments from '../Comments/Comments';
 import { Container } from '@material-ui/core';
 
+
 const PostDetail = () => {
     const {userId} = useParams();
     const [detail, setDetail]=useState({})
@@ -28,15 +29,15 @@ const PostDetail = () => {
     
     return (
         <Container maxWidth="sm">
-        <div className="postPage">
+        <div className="postPage allPost">
             
            <div>
                <h4>{detail.title}</h4>
                 <p>{detail.body}</p> 
            </div>
-                <p>comments</p>
+                
                 {
-                    comment.map(comment=> <Comments comment = {comment}></Comments>)
+                    comment.map(comment=> <Comments className="postComment" comment = {comment}></Comments>)
                 }
            </div>
            </Container>

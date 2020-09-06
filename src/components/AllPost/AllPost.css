@@ -1,6 +1,12 @@
 .allPost{
-    border: 2px solid rgb(209, 208, 208);
+    border: 2px solid rgb(252, 226, 226);
     padding:20px;
     margin-bottom:30px;
     border-radius:10px;
+}
+.allPost p{
+   text-align: justify;
+}
+.allPost img{
+   width: 100%;
 }

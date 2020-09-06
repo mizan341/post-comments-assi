@@ -1,0 +1,19 @@
+.postComment{
+    /* padding-left: 70px; */
+}
+.postComment p{
+    text-align: justify;
+}
+.postComment h5{
+    padding: 0px;
+    margin: 0px;
+}
+.postComment img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.imgAndName{
+    display: flex;
+}
